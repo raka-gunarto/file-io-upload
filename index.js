@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 if (require.main !== module)
     throw 'This utility is meant to be executed directly!';

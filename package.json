@@ -1,10 +1,13 @@
 {
   "name": "file-io-upload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility to upload files to file.io, use with npx",
   "main": "index.js",
   "scripts": {
-    "file-io-upload": "node index"
+    "file-io-upload": "node index.js"
+  },
+  "bin": {
+    "file-io-upload": "index.js"
   },
   "repository": {
     "type": "git",
